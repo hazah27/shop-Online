@@ -1,0 +1,94 @@
+.color1 {
+    background-color: #B87333;
+}
+
+.color2 {
+    background-color: #E0AB76;
+}
+
+.color3 {
+    background-color: #F5DEB3;
+}
+
+.color4 {
+    background-color: #FFFDD0;
+}
+
+.banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/banner.jpg');
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+}
+
+.highlighted-category {
+    /* border: solid; */
+    height: 250px;
+    
+}
+
+.category-male-cloth {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/male-clothing.jpg');
+    background-size: cover;
+    background-position: center;  
+    
+
+}
+
+.category-female-cloth {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/female-clothing.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.category-shoe {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/shoes.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.no-decoration {
+    text-decoration: none;
+    color: white;
+}
+
+.no-decoration:hover {
+    color: #F5DEB3;
+}
+
+.price-text {
+    font-size: 22px;
+    color: #E0AB76;
+}
+
+.image-box {
+    height: 250px;
+}
+
+.image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content-subscribe {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.content-subscribe a {
+    color: white;
+}
+
+.banner-product {
+    height: 45vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/banner.jpg');
+    background-position: 50% 35%;
+}
+
+.similar-product-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
